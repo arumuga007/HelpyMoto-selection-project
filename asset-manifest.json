@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HelpyMoto-selection-project/static/css/main.dc4d6ff2.css",
+    "main.js": "/HelpyMoto-selection-project/static/js/main.3e286479.js",
+    "static/js/787.d590eb9a.chunk.js": "/HelpyMoto-selection-project/static/js/787.d590eb9a.chunk.js",
+    "index.html": "/HelpyMoto-selection-project/index.html",
+    "main.dc4d6ff2.css.map": "/HelpyMoto-selection-project/static/css/main.dc4d6ff2.css.map",
+    "main.3e286479.js.map": "/HelpyMoto-selection-project/static/js/main.3e286479.js.map",
+    "787.d590eb9a.chunk.js.map": "/HelpyMoto-selection-project/static/js/787.d590eb9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.3e286479.js"
+  ]
+}
