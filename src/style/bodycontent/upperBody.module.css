@@ -1,0 +1,87 @@
+.upperbody-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+.name-search-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.name {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.name span {
+    font-size: 1.2rem;
+}
+.search-bar {
+    padding: 0px 5px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,.2);
+}
+.search-bar input {
+    border: none;
+    height: 100%;
+}
+.search-bar i {
+    padding: 0px 5px;
+    height: 100%;
+    position: relative;
+    top: 2px;
+    opacity: .6;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.expenditure-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.expenditure-item {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    padding: 30px max(.6vw, 8px);
+    border-radius: 10px;
+    align-items: center;
+    gap: 10px;
+    /* max-width: 260px; */
+}
+.image-container {
+    background-color: #E0FFEF;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.image-container img {
+    max-height: 80%;
+    height: auto;
+    width: auto;
+    max-width: 80%;
+    object-fit: cover;
+}
+
+.details-header {
+    font-size: .8rem;
+    opacity: .6;
+}
+.details-amount {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.details-revenue-month {
+    font-size: .8rem;
+}
+.details-revenue-month span {
+    color: #2A9B5D;
+    font-weight: 600;
+}
