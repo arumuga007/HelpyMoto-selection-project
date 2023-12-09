@@ -1,17 +1,20 @@
 .sidebar-container {
     height: 100%;
-    width: 17%;
+    width: 18%;
     background-color: var(--sidebar-primary-color);
     color: white;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 25px 2%;
+    padding: 25px 0%;
 }
 .header-container {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    padding: 0px 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 .menu-container {
     display: flex;
@@ -20,6 +23,7 @@
     gap: 10px;
     width: 100%;
     box-sizing: border-box;
+    padding: 0px 20px;
 }
 .menu-items {
     display: flex;
@@ -29,9 +33,10 @@
     width: 100%;
     box-sizing: border-box;
     padding: 5px 15px;
-    border: 1px solid white;
+    border-radius: 5px;
     text-decoration: none;
     opacity: .7;
+    transition: all linear .2s;
 
 }
 .menu-icon-text-container {
@@ -42,14 +47,27 @@
 .menu-icon-text-container i, .menu-items i{
     margin-top: 3.5px;
 }
+.active {
+    background-color: #2D2D69;
+    opacity: 1;
+    transition: all linear .2s;
+}
 .profile-container {
+    box-sizing: border-box;
+    margin: 0px 5px;
+    padding: 5px 10px;
+    background-color: #2D2D69;
+    margin-top: auto;
     display: flex;
     flex-direction: row;
     gap: 10px;
+    font-size: 0.8rem;
+    width: calc(100% - 15px);
+    border-radius: 5px;
 }
 .image-container {
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
 }
 .image-container img {
@@ -60,4 +78,13 @@
     border-radius: 50%;
     object-fit: cover;
     overflow: hidden;
+}
+.role {
+    font-size: .7rem;
+}
+.profile-container i {
+    margin-top: 15px;
+}
+.profile-icon {
+    margin-left: auto;
 }
