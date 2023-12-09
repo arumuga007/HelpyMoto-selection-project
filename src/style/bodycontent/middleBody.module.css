@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+.overview-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    width: 70%;
+    padding: 15px 25px;
+    gap: 10px;
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title-container {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.sub-title {
+    font-size: .8rem;
+    opacity: .5;
+}
+.select-period-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-size: .9rem;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 10px;
+    height: 70%;
+    border-radius: 2px;
+    background-color: var(--body-primary-color);
+}
+.select-period-container i {
+    margin-top: 5px;
+}
+.period-items {
+    position: absolute;
+    opacity: 0;
+}
+.graph-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.graph-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.graph-bar {
+    width: 40px;
+    height: 180px;
+    background-color: black;
+    border-radius: 5px;
+    align-items: flex-end;
+}
+.graph-items:nth-of-type(1) .graph-bar{
+    height: 50px;
+}
