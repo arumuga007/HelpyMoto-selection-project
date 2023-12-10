@@ -42,6 +42,8 @@
     height: 70%;
     border-radius: 2px;
     background-color: var(--body-primary-color);
+    z-index: 10;
+    cursor: pointer;
 }
 .select-period-container i {
     margin-top: 5px;
@@ -49,6 +51,18 @@
 .period-items {
     position: absolute;
     opacity: 0;
+    left: 0;
+    top: 99%;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.1);
+    /* height: 0px; */
+    transition: all linear .1s;
+}
+.period-items div {
+    margin-left: 4px;
+    font-size: .8rem;
+    opacity: .9;
 }
 .graph-container {
     display: flex;
@@ -70,4 +84,67 @@
 }
 .graph-items:nth-of-type(1) .graph-bar{
     height: 50px;
+}
+.customers-container {
+    height: 100%;
+    box-sizing: border-box;
+    width: calc(100% - 70% - 50px);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 20px;
+}
+.customer-header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.header-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.header-subtitle {
+    font-size: .8rem;
+    opacity: .7;
+}
+.circle-container {
+    align-self: center;
+    padding: 30px 30px;
+    border: 15px solid #F1EFFC;
+    border-radius: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+}
+.circle-container span {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.circle-container::before {
+    content: '';
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    bottom: -22px;
+    right: -20px;
+    position: absolute;
+    background-color: transparent;
+    z-index: 100;
+    border: 30px solid #653DEB;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+.circle-container::after {
+    content: '';
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    bottom: -35px;
+    right: -29px;
+    position: absolute;
+    z-index: 101;
+    border: 42px solid transparent;
+    border-top-color: #F5399A;
+    border-radius: 50%;
+    transform: rotate(40deg);
 }

@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import styles from './../../../style/bodycontent/middleBody.module.css'
 const Overview = () => {
     const [period, setPeriod] = useState('quartely');
+    const [activeBox, setActiveBox] = useState(false);
     const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     return (
         <div className={styles['overview-container']}>
@@ -14,13 +15,14 @@ const Overview = () => {
                         Monthly Earning
                     </div>
                 </div>
-                <div className={styles['select-period-container']}>
+                <div className={styles['select-period-container']} onClick={() => setActiveBox(!activeBox)}>
                     <div className={styles['period']}>
                         {period}
                     </div>
-                    <i class="fa-solid fa-arrow-down"></i>
-                    <div className={styles['period-items']}>
+                    <i class="fa-solid fa-angle-down" style={activeBox ? {marginTop: 0, transform: 'rotate(180deg)'} : {}}></i>
+                    <div className={styles['period-items']} style={activeBox ? {opacity: 1} : {}}>
                         <div>Quartely</div>
+                        <div>Half yearly</div>
                         <div>Yearly</div>
                     </div>
                 </div>
