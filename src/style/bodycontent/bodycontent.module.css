@@ -6,4 +6,5 @@
     gap: 40px;
     width: calc(100% - max(18%, calc(0px + 2%)));
     background-color: var(--body-primary-color);
+    height: auto;
 }

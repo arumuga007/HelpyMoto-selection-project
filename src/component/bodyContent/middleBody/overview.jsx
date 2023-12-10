@@ -15,11 +15,11 @@ const Overview = () => {
                         Monthly Earning
                     </div>
                 </div>
-                <div className={styles['select-period-container']} onClick={() => setActiveBox(!activeBox)}>
+                <div className={styles['select-period-container']}>
                     <div className={styles['period']}>
                         {period}
                     </div>
-                    <i class="fa-solid fa-angle-down" style={activeBox ? {marginTop: 0, transform: 'rotate(180deg)'} : {}}></i>
+                    <i class="fa-solid fa-angle-down" style={activeBox ? {marginTop: 0, transform: 'rotate(180deg)'} : {}} onClick={() => setActiveBox(!activeBox)}></i>
                     <div className={styles['period-items']} style={activeBox ? {opacity: 1} : {}}>
                         <div>Quartely</div>
                         <div>Half yearly</div>

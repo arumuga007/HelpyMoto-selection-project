@@ -43,10 +43,11 @@
     border-radius: 2px;
     background-color: var(--body-primary-color);
     z-index: 10;
-    cursor: pointer;
 }
 .select-period-container i {
     margin-top: 5px;
+    cursor: pointer;
+    transition: all linear .2s;
 }
 .period-items {
     position: absolute;
@@ -78,12 +79,46 @@
 .graph-bar {
     width: 40px;
     height: 180px;
-    background-color: black;
-    border-radius: 5px;
+    background-color: #F2F0FE;
+    border-radius: 11px;
     align-items: flex-end;
 }
 .graph-items:nth-of-type(1) .graph-bar{
-    height: 50px;
+    height: 100px;
+}
+.graph-items:nth-of-type(2) .graph-bar{
+    height: 80px;
+}
+.graph-items:nth-of-type(3) .graph-bar{
+    height: 160px;
+}
+.graph-items:nth-of-type(4) .graph-bar{
+    height: 120px;
+}
+.graph-items:nth-of-type(5) .graph-bar{
+    height: 140px;
+}
+.graph-items:nth-of-type(6) .graph-bar{
+    height: 70px;
+}
+.graph-items:nth-of-type(7) .graph-bar{
+    height: 160px;
+}
+.graph-items:nth-of-type(8) .graph-bar{
+    height: 180px;
+    background-color: #5A32EA;
+}
+.graph-items:nth-of-type(9) .graph-bar{
+    height: 173px;
+}
+.graph-items:nth-of-type(10) .graph-bar{
+    height: 150px;
+}
+.graph-items:nth-of-type(11) .graph-bar{
+    height: 140px;
+}
+.graph-items:nth-of-type(12) .graph-bar{
+    height: 160px;
 }
 .customers-container {
     height: 100%;
