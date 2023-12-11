@@ -3,8 +3,15 @@
     flex-direction: column;
     box-sizing: border-box;
     padding: 2% 2.5vw;
-    gap: 40px;
+    gap: 25px;
     width: calc(100% - max(18%, calc(0px + 2%)));
     background-color: var(--body-primary-color);
     height: auto;
+}
+
+
+@media screen and (max-width: 1100px) {   
+    .body-container {
+        width: 100%;
+    }
 }

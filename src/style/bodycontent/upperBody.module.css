@@ -1,7 +1,7 @@
 .upperbody-container {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     width: 100%;
 }
 .name-search-container {
@@ -39,14 +39,12 @@
     box-sizing: border-box;
 }
 .expenditure-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     gap: 20px;
 }
 .expenditure-item {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -89,3 +87,9 @@
     color: #2A9B5D;
     font-weight: 600;
 }
+/* For tab width */
+@media screen and (max-width: 1000px) {
+    .expenditure-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
