@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/HelpyMoto-selection-project/static/css/main.b851bd6e.css",
-    "main.js": "/HelpyMoto-selection-project/static/js/main.1d158565.js",
+    "main.css": "/HelpyMoto-selection-project/static/css/main.5b9715de.css",
+    "main.js": "/HelpyMoto-selection-project/static/js/main.bcbcd781.js",
     "static/js/787.d590eb9a.chunk.js": "/HelpyMoto-selection-project/static/js/787.d590eb9a.chunk.js",
     "static/media/earnings.png": "/HelpyMoto-selection-project/static/media/earnings.94e7cec2601ff5908b87.png",
     "static/media/shoppingBag.png": "/HelpyMoto-selection-project/static/media/shoppingBag.452c038c4ba2b2f59e65.png",
@@ -9,12 +9,12 @@
     "static/media/wallet.png": "/HelpyMoto-selection-project/static/media/wallet.49f7e378dbdc7d2698e4.png",
     "static/media/profileImage.webp": "/HelpyMoto-selection-project/static/media/profileImage.762729d617310861edbe.webp",
     "index.html": "/HelpyMoto-selection-project/index.html",
-    "main.b851bd6e.css.map": "/HelpyMoto-selection-project/static/css/main.b851bd6e.css.map",
-    "main.1d158565.js.map": "/HelpyMoto-selection-project/static/js/main.1d158565.js.map",
+    "main.5b9715de.css.map": "/HelpyMoto-selection-project/static/css/main.5b9715de.css.map",
+    "main.bcbcd781.js.map": "/HelpyMoto-selection-project/static/js/main.bcbcd781.js.map",
     "787.d590eb9a.chunk.js.map": "/HelpyMoto-selection-project/static/js/787.d590eb9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b851bd6e.css",
-    "static/js/main.1d158565.js"
+    "static/css/main.5b9715de.css",
+    "static/js/main.bcbcd781.js"
   ]
 }
