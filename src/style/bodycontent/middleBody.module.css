@@ -184,3 +184,20 @@
     border-radius: 50%;
     transform: rotate(40deg);
 }
+@media screen and (max-width: 900px) {
+    .graph-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .graph-items {
+        flex-direction: row;
+        flex-flow: row-reverse;
+    }
+    .graph-bar {
+        height: 30px;
+        width: 180px;
+    }
+    .overview-container {
+        width: auto;
+    }
+}

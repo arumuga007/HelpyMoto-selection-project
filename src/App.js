@@ -15,6 +15,7 @@ function App() {
         <Sidebar activeMenu={activeMenu} setActiveMenu={setActiveMenu}/>
         <Routes>
         <Route path='/' element={<BodyContent />}></Route>
+        <Route path='/HelpyMoto-selection-project' element={<BodyContent />}></Route>
         <Route path='*' element={<DefaultBodyContent />}></Route>
         </Routes>
       </BrowserRouter>

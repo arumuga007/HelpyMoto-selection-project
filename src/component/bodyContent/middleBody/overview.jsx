@@ -35,7 +35,11 @@ const Overview = () => {
                                 <div className={styles['graph-bar']}>
                                 </div>
                                 <div className={styles['graph-text']}>
-                                    {month}
+                                    {
+                                        [...month].map((value, key) =>  {
+                                            return <span key={key}>{value}</span>
+                                        })
+                                    }
                                 </div>
                             </div>
                         )

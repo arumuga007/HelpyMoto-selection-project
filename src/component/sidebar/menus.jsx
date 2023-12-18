@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 const Menus = () => {
     const location = useLocation();
-    const [activeMenu, setActiveMenu] = useState('');
+    const [activeMenu, setActiveMenu] = useState('dashboard');
     useEffect(() => {
         let currentPath = location.pathname;
+        console.log(activeMenu);
         const paths = {
+            '/HelpyMoto-selection-project': 'dashboard',
             '/': 'dashboard',
             '/products': 'products',
             '/customers': 'customers',
